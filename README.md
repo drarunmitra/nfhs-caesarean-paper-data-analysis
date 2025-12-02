@@ -276,7 +276,7 @@ Spatial boundary files were obtained from publicly available sources and simplif
 
 ## Repository DOI
 
-This repository can be archived on Zenodo or figshare to obtain a permanent DOI for citation purposes, as required by PLOS Global Public Health data availability policies.
+<https://doi.org/10.5281/zenodo.17789152>
 
 ---
 
