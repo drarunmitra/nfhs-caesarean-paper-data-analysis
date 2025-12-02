@@ -29,17 +29,28 @@ District and state-level fact sheets were downloaded as PDF files and data were 
 
 ```
 .
-├── 00_install_packages.R                           # Package installation script
-├── 01_district_download_pdfs_and_scrape_data.R    # Download & extract district data
-├── 01_state_download_pdfs_and_scrape_data.R       # Download & extract state data
-├── 02_cleaning_and_joining_with_spatial_data.R    # Data cleaning & spatial joins
-├── 03_exploratory_data_analysis.R                 # Summary statistics & EDA
-├── 04_spatial_analysis.R                          # Local Moran's I clustering
-├── 05_figures.R                                   # Generate publication figures
-├── data/                                          # Processed datasets (RDS files)
-├── files/                                         # Spatial shapefiles & data
-├── plots/                                         # Generated plots and figures
-└── README.md                                      # This file
+├───code\
+│   ├───00_project_setup_template.R
+│   ├───01_district_download_pdfs_and_scrape_data.R
+│   ├───01_state_download_pdfs_and_scrape_data.R
+│   ├───02_cleaning_and_joining_with_spatial_data.R
+│   ├───03_exploratory_data_analysis.R
+│   ├───04_spatial_analysis.R
+│   └───05_figures.R
+├───data\
+│   ├───cleaned_df_20211130.rds
+│   ├───state_level_nfhs3_cleaned_df_20211201.rds
+│   ├───state_level_nfhs4_cleaned_df_20211201.rds
+│   └───state_level_nfhs5_cleaned_df_20211201.rds
+├───files\
+│   ├───india_districts_simplified.rds
+│   ├───india_sf.rds
+│   ├───india_states_simplified.rds
+│   ├───sf_births_cs_private.rds
+│   ├───sf_births_cs_public.rds
+│   ├───sf_births_cs.rds
+│   └───zone_df.csv
+└───README.md
 ```
 
 ## Installation
