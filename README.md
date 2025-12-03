@@ -262,12 +262,31 @@ This study represents the first national-level examination of district-level spa
 
 If you use this code or data, please cite:
 
-**Manuscript:**
-Mitra A, et al. (2025). Exploring Spatial Clusters of Caesarean Sections across India – Insights from NFHS Data. *PLOS Global Public Health* [Under Review].
+```md
+**Citation**
+Arun Mitra. (2025). Computational Workflow 0.1.0: drarunmitra/nfhs-caesarean-paper-data-analysis. Zenodo. https://doi.org/10.5281/zenodo.17789152
 
-**Data Source:**
-International Institute for Population Sciences (IIPS) and ICF. National Family Health Survey (NFHS-4 and NFHS-5), India. Mumbai: IIPS.
-<http://rchiips.org/nfhs/index.shtml>
+**BibTex**
+@software{arun_mitra_2025_17789152,
+  author       = {Arun Mitra},
+  title        = {Computational Workflow 0.1.0: drarunmitra/nfhs-caesarean-paper-data-analysis
+                  },
+  month        = dec,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {computational-workflow},
+  doi          = {10.5281/zenodo.17789152},
+  url          = {https://doi.org/10.5281/zenodo.17789152},
+  swhid        = {swh:1:dir:f50ea925b6d689a9684106b9cdbd64ec07e5e263
+                   ;origin=https://doi.org/10.5281/zenodo.17789151;vi
+                   sit=swh:1:snp:e99c859aef1ec1495b38ebadca99ce160223
+                   2df5;anchor=swh:1:rel:dcbd396060b98b17bad2891f35d3
+                   452661bb03e0;path=drarunmitra-nfhs-caesarean-
+                   paper-data-analysis-0e3a920
+                  },
+}
+
+```
 
 
 ## Author
