@@ -12,18 +12,20 @@ This is the first national-level study to examine district-level spatial cluster
 - **Rural-urban differences** in caesarean delivery patterns
 - **Public vs private sector variations** in C-section practices
 - **Demographic shifts** in C-sections from urban/affluent populations to rural and socioeconomically weaker sections
-- **Spatial clustering patterns** using Local Moran's I analysis
+- **Spatial clustering patterns** using Global and Local spatial autocorrelation analysis
 
 This research addresses a critical gap in understanding the spatial epidemiology of the C-section epidemic in India and can inform policy decisions and resource allocation for maternal health services.
 
 ## Data Sources
+
+Data were obtained from the National Family Health Survey (NFHS), conducted by the International Institute for Population Sciences (IIPS), Mumbai, under the stewardship of the Ministry of Health and Family Welfare (MoHFW), Government of India.
 
 All data were obtained from the National Family Health Survey (NFHS) website:
 
 - **NFHS-4 (2015-2016)**: http://rchiips.org/nfhs/factsheet_NFHS-4.shtml
 - **NFHS-5 (2019-2021)**: http://rchiips.org/nfhs/factsheet_NFHS-5.shtml
 
-District and state-level fact sheets were downloaded as PDF files and data were extracted programmatically using R.
+Spatial boundary files were obtained from publicly available sources and simplified for computational efficiency.
 
 ## Repository Structure
 
@@ -138,8 +140,6 @@ This will automatically install and load all required packages using `pacman`:
   - `files/sf_births_cs.rds` - Overall C-section rates with geometries
   - `files/sf_births_cs_private.rds` - Private facility C-sections
   - `files/sf_births_cs_public.rds` - Public facility C-sections
-  - `files/sf_insti_births_overall.rds` - Institutional births
-  - `files/sf_insti_births_public_facility.rds` - Public facility births
 
 ### Step 3: Exploratory Data Analysis
 
@@ -290,17 +290,13 @@ Arun Mitra. (2025). Computational Workflow 0.1.0: drarunmitra/nfhs-caesarean-pap
 ## Author
 
 **Dr. Arun Mitra**
+
 Corresponding Author
 
 ## License
 
 This repository is made publicly available to support transparency and reproducibility in research. Please cite appropriately if you use these materials.
 
-## Acknowledgments
-
-Data were obtained from the National Family Health Survey (NFHS), conducted by the International Institute for Population Sciences (IIPS), Mumbai, under the stewardship of the Ministry of Health and Family Welfare (MoHFW), Government of India, with technical assistance from ICF International.
-
-Spatial boundary files were obtained from publicly available sources and simplified for computational efficiency.
 
 ## Repository DOI
 
