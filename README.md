@@ -306,7 +306,4 @@ Spatial boundary files were obtained from publicly available sources and simplif
 
 <https://doi.org/10.5281/zenodo.17789152>
 
----
 
-**Last Updated**: December 2025
-**Manuscript Status**: Under review at PLOS Global Public Health
