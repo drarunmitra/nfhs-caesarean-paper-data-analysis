@@ -11,7 +11,6 @@ This is the first national-level study to examine district-level spatial cluster
 - **Geographic disparities** in C-section rates across regions
 - **Rural-urban differences** in caesarean delivery patterns
 - **Public vs private sector variations** in C-section practices
-- **Demographic shifts** in C-sections from urban/affluent populations to rural and socioeconomically weaker sections
 - **Spatial clustering patterns** using Global and Local spatial autocorrelation analysis
 
 This research addresses a critical gap in understanding the spatial epidemiology of the C-section epidemic in India and can inform policy decisions and resource allocation for maternal health services.
@@ -235,11 +234,11 @@ This analysis is fully reproducible. All scripts use the `here::here()` function
    - Sufficient disk space (~2 GB for PDFs and intermediate files)
    - Java JDK installed for `tabulizer` package
 
-**Note**: Script 01 may take several hours to complete due to downloading ~705 PDFs from the NFHS website.
+**Note**: Scripts starting with `01_*` may take several hours to complete due to downloading 700+ PDFs from the NFHS website.
 
 ### Quick Start (Using Pre-processed Data):
 
-If you have the cleaned RDS files, you can skip Step 1 and start from Script 02:
+You can use the cleaned RDS files to skip Step 1 and start from Script 02:
 
 ```r
 source("02_cleaning_and_joining_with_spatial_data.R")
