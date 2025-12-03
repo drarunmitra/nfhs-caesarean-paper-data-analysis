@@ -262,11 +262,9 @@ This study represents the first national-level examination of district-level spa
 
 If you use this code or data, please cite:
 
-```md
-**Citation**
 Arun Mitra. (2025). Computational Workflow 0.1.0: drarunmitra/nfhs-caesarean-paper-data-analysis. Zenodo. https://doi.org/10.5281/zenodo.17789152
 
-**BibTex**
+```md
 @software{arun_mitra_2025_17789152,
   author       = {Arun Mitra},
   title        = {Computational Workflow 0.1.0: drarunmitra/nfhs-caesarean-paper-data-analysis
