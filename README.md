@@ -175,44 +175,6 @@ This will automatically install and load all required packages using `pacman`:
   - `figure_4.eps` - Spatial clustering patterns for overall C-sections
   - `figure_5.eps` - Spatial clustering for public vs private facilities
 
-## Methodology
-
-### Spatial Analysis Approach
-
-**Local Moran's I** (Local Indicators of Spatial Association - LISA) is used to identify spatial clustering patterns:
-
-1. **Spatial Weights Matrix**: Queen contiguity weights define neighborhood structure (districts sharing any boundary point are neighbors)
-2. **Local Autocorrelation**: Calculates local spatial autocorrelation for each district
-3. **Significance Testing**: Uses permutation tests to assess statistical significance
-4. **Cluster Classification**: Categorizes districts into cluster types (High-High, Low-Low, High-Low, Low-High, Not Significant)
-
-This approach reveals geographic patterns and hotspots of high/low C-section rates that would not be apparent from non-spatial analyses.
-
-### Data Imputation Strategy
-
-Districts with missing values (primarily due to data unavailability in source PDFs) were imputed using state-level averages from the corresponding NFHS round. This approach:
-- Ensures complete geographic coverage for mapping
-- Maintains regional patterns
-- Provides conservative estimates
-- Is clearly documented in figure captions
-
-### Geographic Scope
-
-The analysis encompasses:
-- **707 districts** across India
-- **36 states and union territories**
-- **Two time periods**: NFHS-4 (2015-2016) and NFHS-5 (2019-2021)
-- **Population coverage**: Nationally representative data
-
-## Key Indicators Analyzed
-
-1. **Caesarean section births (%)** - Proportion of all deliveries by C-section
-2. **C-sections in private facilities (%)** - Among births in private hospitals
-3. **C-sections in public facilities (%)** - Among births in government hospitals
-4. **Institutional births (%)** - Deliveries in health facilities (public or private)
-5. **Births in public facilities (%)** - Proportion of institutional births in government facilities
-6. **Skilled birth attendance (%)** - Births attended by trained health personnel
-
 ## Reproducibility
 
 This analysis is fully reproducible. All scripts use the `here::here()` function for project-relative file paths, ensuring code runs regardless of working directory.
