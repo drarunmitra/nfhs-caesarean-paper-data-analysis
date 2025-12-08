@@ -89,6 +89,43 @@ This will automatically install and load all required packages using `pacman`:
 - `ggpubr`, `ggtext`, `ggstatsplot` - Enhanced plotting
 - `gt`, `gtExtras` - Publication-quality tables
 
+#### Package Versions used for Analysis
+
+- downloader (version 0.4; Chang W, 2015)
+- extrafont (version 0.20; Chang W, 2025)
+- janitor (version 2.2.0; Firke S, 2023)
+- lubridate (version 1.9.3; Grolemund G, Wickham H, 2011)
+- fs (version 1.6.5; Hester J et al., 2024)
+- gt (version 0.11.1; Iannone R et al., 2024)
+- tictoc (version 1.2.1; Izrailev S, 2024)
+- epitrix (version 0.4.0; Jombart T et al., 2023)
+- ggpubr (version 0.6.0; Kassambara A, 2023)
+- rgeoda (version 0.0.10.4; Li X, Anselin L, 2023)
+- digest (version 0.6.36; Lucas DEwcbA et al., 2024)
+- gtExtras (version 0.5.0; Mock T, 2023)
+- here (version 1.0.2; Müller K, 2025)
+- tibble (version 3.2.1; Müller K, Wickham H, 2023)
+- pdftools (version 3.4.1; Ooms J, 2024)
+- ggstatsplot (version 0.12.4; Patil I, 2021)
+- sf (version 1.0.16; Pebesma E, Bivand R, 2023)
+- patchwork (version 1.3.0; Pedersen T, 2024)
+- R (version 4.4.1; R Core Team, 2024)
+- gdata (version 3.0.1; Warnes GR et al., 2024)
+- ggplot2 (version 3.5.1; Wickham H, 2016)
+- forcats (version 1.0.0; Wickham H, 2023)
+- stringr (version 1.5.1; Wickham H, 2023)
+- rvest (version 1.0.4; Wickham H, 2024)
+- tidyverse (version 2.0.0; Wickham H et al., 2019)
+- usethis (version 3.1.0; Wickham H et al., 2024)
+- dplyr (version 1.1.4; Wickham H et al., 2023)
+- purrr (version 1.0.2; Wickham H, Henry L, 2023)
+- readr (version 2.1.5; Wickham H et al., 2024)
+- devtools (version 2.4.5; Wickham H et al., 2022)
+- xml2 (version 1.3.6; Wickham H et al., 2023)
+- tidyr (version 1.3.1; Wickham H et al., 2024)
+- ggridges (version 0.5.6; Wilke C, 2024)
+- ggtext (version 0.1.2; Wilke C, Wiernik B, 2022)
+
 ### Important Installation Notes
 
 1. **Java Requirement**: The `tabulizer` package requires Java JDK.
