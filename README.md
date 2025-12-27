@@ -300,4 +300,7 @@ This repository is made publicly available to support transparency and reproduci
 
 <https://doi.org/10.5281/zenodo.17789152>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17789152.svg)](https://doi.org/10.5281/zenodo.17789152)
+
+
 
